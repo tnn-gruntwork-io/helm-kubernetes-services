@@ -27,7 +27,7 @@ endif::[]
 image:https://img.shields.io/badge/maintained%20by-gruntwork.io-%235849a6.svg[link="https://gruntwork.io/?ref=repo_k8s_service"]
 
 This repo contains Helm Charts for deploying your applications on Kubernetes clusters with
-https://helm.sh[Helm] (hosted at https://helmcharts.gruntwork.io[helmcharts.gruntwork.io], implemented via https://github.com/gruntwork-io/helmcharts[gruntwork-io/helmcharts]).
+https://helm.sh[Helm] (hosted at https://helmcharts.gruntwork.io[helmcharts.gruntwork.io], implemented via https://github.com/tnn-gruntwork-io/helmcharts[tnn-gruntwork-io/helmcharts]).
 
 image::/_docs/k8s-service-architecture.png?raw=true[K8S Service architecture]
 
@@ -81,7 +81,7 @@ If you just want to try this repo out for experimenting and learning, check out 
 
 If you want to deploy this repo in production, check out the following resources:
 
-* **Gruntwork Subscriber Only** https://github.com/gruntwork-io/terraform-aws-service-catalog/blob/main/examples/for-production/infrastructure-live/prod/us-west-2/prod/services/k8s-sample-app-frontend/terragrunt.hcl[k8s-service in the example Reference Architecture]: Production-ready sample code from the Reference Architecture example.
+* **Gruntwork Subscriber Only** https://github.com/tnn-gruntwork-io/terraform-aws-service-catalog/blob/main/examples/for-production/infrastructure-live/prod/us-west-2/prod/services/k8s-sample-app-frontend/terragrunt.hcl[k8s-service in the example Reference Architecture]: Production-ready sample code from the Reference Architecture example.
 
 
 

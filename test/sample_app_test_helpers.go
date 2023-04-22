@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/tnn-gruntwork-io/terratest/modules/logger"
+	"github.com/tnn-gruntwork-io/terratest/modules/shell"
 )
 
 // Expected response from the sample app is a json
@@ -37,7 +37,7 @@ func createSampleAppDockerImage(t *testing.T, uniqueID string, examplePath strin
 	cmdsToRun = append(
 		cmdsToRun,
 		// Build the image and tag using the unique ID
-		fmt.Sprintf("docker build -t gruntwork-io/sample-sinatra-app:%s .", uniqueID),
+		fmt.Sprintf("docker build -t tnn-gruntwork-io/sample-sinatra-app:%s .", uniqueID),
 	)
 	cmd := shell.Command{
 		Command: "sh",

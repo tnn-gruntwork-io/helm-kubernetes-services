@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/ghodss/yaml"
-	"github.com/gruntwork-io/terratest/modules/helm"
+	"github.com/tnn-gruntwork-io/terratest/modules/helm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

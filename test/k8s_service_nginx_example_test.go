@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/helm"
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
-	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
+	"github.com/tnn-gruntwork-io/terratest/modules/helm"
+	http_helper "github.com/tnn-gruntwork-io/terratest/modules/http-helper"
+	"github.com/tnn-gruntwork-io/terratest/modules/k8s"
+	"github.com/tnn-gruntwork-io/terratest/modules/random"
+	test_structure "github.com/tnn-gruntwork-io/terratest/modules/test-structure"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/mod/semver"
 )
