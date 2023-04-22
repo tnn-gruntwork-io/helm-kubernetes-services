@@ -26,7 +26,7 @@
 # The following example deploys the `sample-sinatra-app:latest` image with a `IfNotPresent` image pull policy, which
 # indicates that the image should only be pulled if it has not been pulled previously.
 containerImage:
-  repository: gruntwork-io/sample-sinatra-app
+  repository: tnn-gruntwork-io/sample-sinatra-app
   tag: latest
   pullPolicy: IfNotPresent
 

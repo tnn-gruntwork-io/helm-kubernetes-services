@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/ghodss/yaml"
-	"github.com/gruntwork-io/terratest/modules/helm"
+	"github.com/tnn-gruntwork-io/terratest/modules/helm"
 	"github.com/stretchr/testify/require"
 	corev1 "k8s.io/api/core/v1"
 )

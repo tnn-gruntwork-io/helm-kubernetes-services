@@ -115,11 +115,11 @@ Once your `docker` client is able to talk to the `minikube` Docker Daemon, we ca
 that it is available to `minikube` to use:
 
 ```bash
-docker build -t gruntwork-io/sample-sinatra-app ./docker
+docker build -t tnn-gruntwork-io/sample-sinatra-app ./docker
 ```
 
 This will build a container that has the runtime environment for running sinatra in the `minikube` virtual machine.
-Once the container is created, we tag it as `gruntwork-io/sample-sinatra-app` so that it is easy to reference later.
+Once the container is created, we tag it as `tnn-gruntwork-io/sample-sinatra-app` so that it is easy to reference later.
 Note that because this is built in the `minikube` virtual machine directly, the image will be cached within the VM. This
 is why `minikube` is able to use the built container when you reference it in `k8s-service`.
 
@@ -132,7 +132,7 @@ to deploy our application using the `k8s-service` chart.
 This folder contains predefined input values you can use with the `k8s-service` chart to deploy the sample app
 container. Like the [k8s-service-nginx](../k8s-service-nginx) example, these values define the container image to use as
 part of the deployment, and augments the default values of the chart by defining a `livenessProbe` and `readinessProbe`
-for the main container (which in this case will be `gruntwork-io/sample-sinatra-app:latest`, the one we built in the
+for the main container (which in this case will be `tnn-gruntwork-io/sample-sinatra-app:latest`, the one we built in the
 previous step). Take a look at the provided [`values.yaml`](./values.yaml) file to see how the values are defined.
 
 However, the values in this example also sets an environment variable to configure the application. By default the
